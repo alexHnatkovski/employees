@@ -1,0 +1,13 @@
+.employee-list__header {
+    background-color: #3f51b5;
+    color: white;
+    display: flex;
+    height: 140px;
+    padding: 0 25px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    
+    &_caption {
+        margin: auto 0;
+    }
+}

@@ -1,0 +1,13 @@
+.employee-list-captions {
+    padding-top: 10px;
+
+    &__text {
+        font-weight: bold;
+    }
+    
+    .employee-item__column {
+        &:nth-child(n + 2) {
+            text-align: center;
+        }
+    }
+}

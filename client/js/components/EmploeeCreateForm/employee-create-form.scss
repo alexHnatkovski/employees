@@ -1,0 +1,13 @@
+.employee-item__column {
+    input {
+        width: 90%;
+        margin: 0 auto;
+        height: 45px;
+        font-size: 1em;
+    }
+    &:nth-child(n+2) {
+        input {
+            text-align: center;
+        }
+    }
+}

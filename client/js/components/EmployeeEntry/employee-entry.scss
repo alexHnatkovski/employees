@@ -1,0 +1,20 @@
+.employee-item {
+    display: flex;
+    height: 130px;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    
+    .employee-item__column {
+        flex-basis: 25%;
+        flex-grow: 1;
+        &:nth-child(n + 2) {
+            text-align: center;
+        }
+    }
+
+    .employee-item__controls {
+        flex-basis: 20%;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+}
